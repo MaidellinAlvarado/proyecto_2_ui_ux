@@ -18,7 +18,7 @@ async function poblarBaseDeDatos() {
     console.log("\n🚀 ¡Base de datos poblada!");
     console.log("-----------------------------------------");
     console.log("🆔 COPIA ESTE UUID:");
-    console.log(nuevoNodo.id); // Este es el UUID que debes usar en tu simulador para enviar datos al nodo correcto
+    console.log(nuevoNodo.id); 
     console.log("-----------------------------------------\n");
 
     process.exit(0);

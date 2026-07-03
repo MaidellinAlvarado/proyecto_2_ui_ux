@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-stone-100 text-stone-900 font-sans p-6">
-      {/* ... Header igual al anterior ... */}
+    
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
         
@@ -95,7 +95,7 @@ function App() {
           </div>
         </div>
 
-        {/* 4. Alertas Sistema [cite: 18] */}
+        {/* 4. Alertas Sistema */}
         <div className="bg-white p-7 rounded-3xl border border-rose-100 shadow-sm flex flex-col justify-between">
           <AlertTriangle className="w-8 h-8 text-rose-600" />
           <div>
@@ -107,7 +107,7 @@ function App() {
         </div>
       </div>
 
-      {/* Tabla de Logs Avanzada [cite: 16] */}
+      {/* Tabla de Logs Avanzada */}
       <div className="bg-white rounded-3xl border border-rose-100 p-8 shadow-sm">
         <h2 className="text-2xl font-bold mb-6">Registro de Logs Avanzado</h2>
         <div className="overflow-x-auto">

@@ -7,7 +7,7 @@ const procesarMetrica = async (app, data) => {
     // 3. Recuperar Socket.io
     const io = app.get('io');
 if (io) {
-    console.log("📢 Emitiendo socket: Nueva Métrica"); // <-- Si no ves esto en la terminal del backend, el socket no se dispara
+    console.log("📢 Emitiendo socket: Nueva Métrica"); 
     io.emit('Nueva Métrica', nuevaMetrica);
 }
 

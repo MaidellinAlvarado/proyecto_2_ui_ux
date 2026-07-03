@@ -1,13 +1,13 @@
 const axios = require('axios');
 
-// Configuración de la ruta que creamos en la Fase II 
+
 const API_URL = 'http://localhost:3000/api/metrics'; 
-const NODO_ID = '501c1703-c70f-4374-84a8-17f4f4762bc7';
+const NODO_ID = 'bf2938b3-dfdf-4f17-9e81-ebb38d52ee9e';
 
 const enviarDatos = async () => {
     const random = Math.random();
     
-    // Simulamos datos con cierta aleatoriedad para generar logs de diferentes niveles de criticidad
+dad
     const payload = {
         
         nodo_id: NODO_ID,

@@ -1,7 +1,7 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/db');
 
-// CAMBIO AQUÍ: El primer argumento debe ser 'MetricaLog', no una ruta.
+// Definición del modelo MetricaLog
 const MetricaLog = sequelize.define('MetricaLog', {
   timestamp: {
     type: DataTypes.DATE,
@@ -36,7 +36,7 @@ const MetricaLog = sequelize.define('MetricaLog', {
     allowNull: true 
   }
 }, {
-  tableName: 'metricas_log', // Este es el nombre real en la DB
+  tableName: 'metricas_log', 
   timestamps: false
 });
 
